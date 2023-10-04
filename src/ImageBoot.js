@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react'; // Import React
-import school from './images/bg.png';
+// import school from './images/bg.png';
 import './style.css';
 
 function ImageBoot() {

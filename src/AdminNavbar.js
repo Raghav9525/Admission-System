@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BiSolidUser } from 'react-icons/bi';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Import BrowserRouter and Routes
+// import { GiHamburgerMenu } from 'react-icons/gi';
+import { BrowserRouter as  Link } from 'react-router-dom'; // Import BrowserRouter and Routes
 
 
 function Navbar() {

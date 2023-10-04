@@ -119,7 +119,7 @@ nav .fas{
     padding: 0; */
     width:100%;
     height: 84vh; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 49, 49, 0.74)), url(images/bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 49, 49, 0.74)), url(./images/bg.png);
     background-size: cover;
     background-position: center; 
 }

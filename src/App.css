@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* my css code */
+
+.parent{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.parent .text{
+  text-align: left;
+}
+
+.img1{
+  max-width:100%;
+  height: auto;
+}
+
+/* ImageResponsive.css */
+
+/* Default styles for the image */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  /* Style for screens with a max-width of 1400px or less */
+  content: url('../public/images/school3_1400.jpg');
+}
+
+/* Media query for screens with a max-width of 768px */
+@media (max-width: 768px) {
+  .img-responsive {
+    /* Style for screens with a max-width of 768px */
+    content: url('../public/images/school3_768.jpg');
+  }
+}

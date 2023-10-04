@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import PoineerAcadmeyBoot from './PoineerAcadmeyBoot'
+// import Admin from './Admin';
+// import AdminDashboard from './AdminDashboard';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+
+import Navbar1 from './Navbar1';
+import React from 'react';
+// import FacultyDetails from './FacultyDetails';
+import FacultyUpload from './FacultyUpload';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Admin /> */}
+      {/* <AdminDashboard /> */}
+      <PoineerAcadmeyBoot />
+      {/* <FacultyDetails /> */}
+      {/* <FacultyUpload /> */}
+     
     </div>
   );
 }

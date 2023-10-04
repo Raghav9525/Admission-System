@@ -1,0 +1,112 @@
+
+.navbar.my-custom-nav {
+  /* background-color: rgb(71, 235, 63); */
+}
+
+.navbar-brand{
+  font-weight: 700;
+
+}
+
+/* Custom CSS for Navbar */
+/* .navbar-light.bg-light {
+    display: grid;
+    grid-template-columns: 3rem 2fr 6fr 1fr 3rem;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 5px 5px -50px,
+      rgba(0, 0, 0, 0.6) 0px 10px 40px -10px;
+  }
+   */
+  /* .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    grid-column: 2/3;
+    justify-self: start;
+    text-align: left;
+  }
+  
+  .login {
+    grid-column: 4/5;
+    justify-self: end;
+  } */
+  
+  /* Apply a specific width and height to the icon */
+  /* .login-desktop li a > svg {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Set color to name of website */
+  /* .logo > h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(12, 5, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(57, 58, 140);
+  }  */
+  
+
+
+/* Responsive navbar using media query */
+
+/* @media (max-width: 668px) { */
+    /* hide signup logo */
+    /* .login .login-desktop{
+        display: none;
+    } */
+
+      /* Show the .hemburger-menu when the screen size is less than 968px */
+    /* .login .hamburger-menu{
+        padding: 10px;
+        display: block;
+        font-size: 2.5rem;
+    } */
+
+    /* Override styles for smaller screens */
+   /* .menu-bar {
+        display: none; 
+    }  */
+   
+    /* .mobile-menu-link{
+        background: white;
+        height: 20rem;
+        display: grid;
+        grid-column: 2/5;
+        transition: all 2s linear;
+        transform-origin: top;
+        
+        box-shadow: rgba(50, 50, 93,0.25) 0px 50px 100px -20px, 
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    }
+  */
+    /* .mobile-menu-link{
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+    }
+
+    .mobile-menu-link > ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px; 
+      } */
+      
+      /* .mobile-menu-link > ul li {
+        margin-bottom: 10px; 
+      }
+      
+ 
+} */
+

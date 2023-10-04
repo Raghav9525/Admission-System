@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Import BrowserRouter and Routes
-import { BiSolidUser } from 'react-icons/bi';
-import ImageBoot from './ImageBoot';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and Routes
+// import { BiSolidUser } from 'react-icons/bi';
 import Login from './Login';
 import Admission from './Admission'; // Import your Admission component here
 import Signup from './Signup';
 import Home from './Home';
-import Navbar from './Navbar';
 import Admin from './Admin';
 import StudentData from './StudentData';
 import FacultyDetails from './FacultyDetails';

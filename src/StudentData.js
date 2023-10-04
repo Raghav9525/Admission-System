@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import AdminNavbar from './AdminNavbar';
 
 function StudentData() {
@@ -8,7 +8,7 @@ function StudentData() {
     const [data, setData] = useState([]);
     const [showData, setShowData] = useState(false);
     const [selectedClas, setSelectClass] = useState('nursery');
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
   
     const showStudent = useCallback(async () => {
       try {

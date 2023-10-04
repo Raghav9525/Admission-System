@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink, useNavigate } from 'react-router-dom';
 import LoginValidation from './LoginValidation';
 import axios from 'axios';
-import Login from './Login';
+// import Login from './Login';
 
 function Signup() {
   // create state

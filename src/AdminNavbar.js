@@ -32,7 +32,7 @@ function Navbar() {
               <Link className="nav-link" to="/Admission">Admission Request</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Student Details</a>
+              <a className="nav-link" href="/studentdata">Student Details</a>
             </li>
           </ul>
 

@@ -5,7 +5,7 @@ import { BiSolidUser } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import './style.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
